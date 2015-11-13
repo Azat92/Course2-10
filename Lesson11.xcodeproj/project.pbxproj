@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA8248E81BF6245B00114F8D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8248E71BF6245B00114F8D /* SecondViewController.m */; };
+		AA8248EB1BF62CAF00114F8D /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8248EA1BF62CAF00114F8D /* MyModel.m */; };
 		AAC91FE41BF524F50084DD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC91FE31BF524F50084DD9A /* main.m */; };
 		AAC91FE71BF524F50084DD9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC91FE61BF524F50084DD9A /* AppDelegate.m */; };
 		AAC91FEA1BF524F50084DD9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC91FE91BF524F50084DD9A /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA8248E61BF6245B00114F8D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AA8248E71BF6245B00114F8D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AA8248E91BF62CAF00114F8D /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		AA8248EA1BF62CAF00114F8D /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
 		AAC91FDF1BF524F50084DD9A /* Lesson11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC91FE31BF524F50084DD9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAC91FE51BF524F50084DD9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,11 +68,15 @@
 				AAC91FE61BF524F50084DD9A /* AppDelegate.m */,
 				AAC91FE81BF524F50084DD9A /* ViewController.h */,
 				AAC91FE91BF524F50084DD9A /* ViewController.m */,
+				AA8248E61BF6245B00114F8D /* SecondViewController.h */,
+				AA8248E71BF6245B00114F8D /* SecondViewController.m */,
 				AAC91FEB1BF524F50084DD9A /* Main.storyboard */,
 				AAC91FEE1BF524F50084DD9A /* Assets.xcassets */,
 				AAC91FF01BF524F50084DD9A /* LaunchScreen.storyboard */,
 				AAC91FF31BF524F50084DD9A /* Info.plist */,
 				AAC91FE21BF524F50084DD9A /* Supporting Files */,
+				AA8248E91BF62CAF00114F8D /* MyModel.h */,
+				AA8248EA1BF62CAF00114F8D /* MyModel.m */,
 			);
 			path = Lesson11;
 			sourceTree = "<group>";
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8248E81BF6245B00114F8D /* SecondViewController.m in Sources */,
+				AA8248EB1BF62CAF00114F8D /* MyModel.m in Sources */,
 				AAC91FEA1BF524F50084DD9A /* ViewController.m in Sources */,
 				AAC91FE71BF524F50084DD9A /* AppDelegate.m in Sources */,
 				AAC91FE41BF524F50084DD9A /* main.m in Sources */,
@@ -300,6 +312,7 @@
 				AAC91FF81BF524F50084DD9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
